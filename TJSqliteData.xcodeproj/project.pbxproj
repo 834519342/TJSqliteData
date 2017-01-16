@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B087E5D1E2C74EF004DBC0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E5C1E2C74EF004DBC0D /* main.m */; };
+		2B087E601E2C74EF004DBC0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E5F1E2C74EF004DBC0D /* AppDelegate.m */; };
+		2B087E631E2C74EF004DBC0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E621E2C74EF004DBC0D /* ViewController.m */; };
+		2B087E661E2C74EF004DBC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B087E641E2C74EF004DBC0D /* Main.storyboard */; };
+		2B087E681E2C74EF004DBC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B087E671E2C74EF004DBC0D /* Assets.xcassets */; };
+		2B087E6B1E2C74EF004DBC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B087E691E2C74EF004DBC0D /* LaunchScreen.storyboard */; };
+		2B087E761E2C74EF004DBC0D /* TJSqliteDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E751E2C74EF004DBC0D /* TJSqliteDataTests.m */; };
+		2B087E811E2C74EF004DBC0D /* TJSqliteDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E801E2C74EF004DBC0D /* TJSqliteDataUITests.m */; };
+		2B087E921E2C7531004DBC0D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B087E911E2C7531004DBC0D /* libsqlite3.0.tbd */; };
+		2B087E981E2C7678004DBC0D /* TJDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E971E2C7678004DBC0D /* TJDB.m */; };
+		2B087E9B1E2C7718004DBC0D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B087E9A1E2C7718004DBC0D /* DataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B087E721E2C74EF004DBC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B087E501E2C74EF004DBC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B087E571E2C74EF004DBC0D;
+			remoteInfo = TJSqliteData;
+		};
+		2B087E7D1E2C74EF004DBC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B087E501E2C74EF004DBC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B087E571E2C74EF004DBC0D;
+			remoteInfo = TJSqliteData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B087E581E2C74EF004DBC0D /* TJSqliteData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJSqliteData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B087E5C1E2C74EF004DBC0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B087E5E1E2C74EF004DBC0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B087E5F1E2C74EF004DBC0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B087E611E2C74EF004DBC0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B087E621E2C74EF004DBC0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B087E651E2C74EF004DBC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B087E671E2C74EF004DBC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B087E6A1E2C74EF004DBC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B087E6C1E2C74EF004DBC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B087E711E2C74EF004DBC0D /* TJSqliteDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJSqliteDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B087E751E2C74EF004DBC0D /* TJSqliteDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJSqliteDataTests.m; sourceTree = "<group>"; };
+		2B087E771E2C74EF004DBC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B087E7C1E2C74EF004DBC0D /* TJSqliteDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJSqliteDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B087E801E2C74EF004DBC0D /* TJSqliteDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJSqliteDataUITests.m; sourceTree = "<group>"; };
+		2B087E821E2C74EF004DBC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B087E911E2C7531004DBC0D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2B087E961E2C7678004DBC0D /* TJDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDB.h; sourceTree = "<group>"; };
+		2B087E971E2C7678004DBC0D /* TJDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJDB.m; sourceTree = "<group>"; };
+		2B087E991E2C7718004DBC0D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		2B087E9A1E2C7718004DBC0D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B087E551E2C74EF004DBC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B087E921E2C7531004DBC0D /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E6E1E2C74EF004DBC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E791E2C74EF004DBC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B087E4F1E2C74EF004DBC0D = {
+			isa = PBXGroup;
+			children = (
+				2B087E5A1E2C74EF004DBC0D /* TJSqliteData */,
+				2B087E741E2C74EF004DBC0D /* TJSqliteDataTests */,
+				2B087E7F1E2C74EF004DBC0D /* TJSqliteDataUITests */,
+				2B087E591E2C74EF004DBC0D /* Products */,
+				2B087E8E1E2C7519004DBC0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B087E591E2C74EF004DBC0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E581E2C74EF004DBC0D /* TJSqliteData.app */,
+				2B087E711E2C74EF004DBC0D /* TJSqliteDataTests.xctest */,
+				2B087E7C1E2C74EF004DBC0D /* TJSqliteDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B087E5A1E2C74EF004DBC0D /* TJSqliteData */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E951E2C7660004DBC0D /* TJDB */,
+				2B087E5E1E2C74EF004DBC0D /* AppDelegate.h */,
+				2B087E5F1E2C74EF004DBC0D /* AppDelegate.m */,
+				2B087E611E2C74EF004DBC0D /* ViewController.h */,
+				2B087E621E2C74EF004DBC0D /* ViewController.m */,
+				2B087E641E2C74EF004DBC0D /* Main.storyboard */,
+				2B087E671E2C74EF004DBC0D /* Assets.xcassets */,
+				2B087E691E2C74EF004DBC0D /* LaunchScreen.storyboard */,
+				2B087E6C1E2C74EF004DBC0D /* Info.plist */,
+				2B087E5B1E2C74EF004DBC0D /* Supporting Files */,
+			);
+			path = TJSqliteData;
+			sourceTree = "<group>";
+		};
+		2B087E5B1E2C74EF004DBC0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E5C1E2C74EF004DBC0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B087E741E2C74EF004DBC0D /* TJSqliteDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E751E2C74EF004DBC0D /* TJSqliteDataTests.m */,
+				2B087E771E2C74EF004DBC0D /* Info.plist */,
+			);
+			path = TJSqliteDataTests;
+			sourceTree = "<group>";
+		};
+		2B087E7F1E2C74EF004DBC0D /* TJSqliteDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E801E2C74EF004DBC0D /* TJSqliteDataUITests.m */,
+				2B087E821E2C74EF004DBC0D /* Info.plist */,
+			);
+			path = TJSqliteDataUITests;
+			sourceTree = "<group>";
+		};
+		2B087E8E1E2C7519004DBC0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E911E2C7531004DBC0D /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B087E951E2C7660004DBC0D /* TJDB */ = {
+			isa = PBXGroup;
+			children = (
+				2B087E961E2C7678004DBC0D /* TJDB.h */,
+				2B087E971E2C7678004DBC0D /* TJDB.m */,
+				2B087E991E2C7718004DBC0D /* DataModel.h */,
+				2B087E9A1E2C7718004DBC0D /* DataModel.m */,
+			);
+			path = TJDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B087E571E2C74EF004DBC0D /* TJSqliteData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B087E851E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteData" */;
+			buildPhases = (
+				2B087E541E2C74EF004DBC0D /* Sources */,
+				2B087E551E2C74EF004DBC0D /* Frameworks */,
+				2B087E561E2C74EF004DBC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJSqliteData;
+			productName = TJSqliteData;
+			productReference = 2B087E581E2C74EF004DBC0D /* TJSqliteData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B087E701E2C74EF004DBC0D /* TJSqliteDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B087E881E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteDataTests" */;
+			buildPhases = (
+				2B087E6D1E2C74EF004DBC0D /* Sources */,
+				2B087E6E1E2C74EF004DBC0D /* Frameworks */,
+				2B087E6F1E2C74EF004DBC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B087E731E2C74EF004DBC0D /* PBXTargetDependency */,
+			);
+			name = TJSqliteDataTests;
+			productName = TJSqliteDataTests;
+			productReference = 2B087E711E2C74EF004DBC0D /* TJSqliteDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B087E7B1E2C74EF004DBC0D /* TJSqliteDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B087E8B1E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteDataUITests" */;
+			buildPhases = (
+				2B087E781E2C74EF004DBC0D /* Sources */,
+				2B087E791E2C74EF004DBC0D /* Frameworks */,
+				2B087E7A1E2C74EF004DBC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B087E7E1E2C74EF004DBC0D /* PBXTargetDependency */,
+			);
+			name = TJSqliteDataUITests;
+			productName = TJSqliteDataUITests;
+			productReference = 2B087E7C1E2C74EF004DBC0D /* TJSqliteDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B087E501E2C74EF004DBC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "谭杰";
+				TargetAttributes = {
+					2B087E571E2C74EF004DBC0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2B087E701E2C74EF004DBC0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B087E571E2C74EF004DBC0D;
+					};
+					2B087E7B1E2C74EF004DBC0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B087E571E2C74EF004DBC0D;
+					};
+				};
+			};
+			buildConfigurationList = 2B087E531E2C74EF004DBC0D /* Build configuration list for PBXProject "TJSqliteData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B087E4F1E2C74EF004DBC0D;
+			productRefGroup = 2B087E591E2C74EF004DBC0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B087E571E2C74EF004DBC0D /* TJSqliteData */,
+				2B087E701E2C74EF004DBC0D /* TJSqliteDataTests */,
+				2B087E7B1E2C74EF004DBC0D /* TJSqliteDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B087E561E2C74EF004DBC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B087E6B1E2C74EF004DBC0D /* LaunchScreen.storyboard in Resources */,
+				2B087E681E2C74EF004DBC0D /* Assets.xcassets in Resources */,
+				2B087E661E2C74EF004DBC0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E6F1E2C74EF004DBC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E7A1E2C74EF004DBC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B087E541E2C74EF004DBC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B087E631E2C74EF004DBC0D /* ViewController.m in Sources */,
+				2B087E9B1E2C7718004DBC0D /* DataModel.m in Sources */,
+				2B087E981E2C7678004DBC0D /* TJDB.m in Sources */,
+				2B087E601E2C74EF004DBC0D /* AppDelegate.m in Sources */,
+				2B087E5D1E2C74EF004DBC0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E6D1E2C74EF004DBC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B087E761E2C74EF004DBC0D /* TJSqliteDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B087E781E2C74EF004DBC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B087E811E2C74EF004DBC0D /* TJSqliteDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B087E731E2C74EF004DBC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B087E571E2C74EF004DBC0D /* TJSqliteData */;
+			targetProxy = 2B087E721E2C74EF004DBC0D /* PBXContainerItemProxy */;
+		};
+		2B087E7E1E2C74EF004DBC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B087E571E2C74EF004DBC0D /* TJSqliteData */;
+			targetProxy = 2B087E7D1E2C74EF004DBC0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B087E641E2C74EF004DBC0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B087E651E2C74EF004DBC0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B087E691E2C74EF004DBC0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B087E6A1E2C74EF004DBC0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B087E831E2C74EF004DBC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B087E841E2C74EF004DBC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B087E861E2C74EF004DBC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TJSqliteData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B087E871E2C74EF004DBC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TJSqliteData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B087E891E2C74EF004DBC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TJSqliteDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TJSqliteData.app/TJSqliteData";
+			};
+			name = Debug;
+		};
+		2B087E8A1E2C74EF004DBC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TJSqliteDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TJSqliteData.app/TJSqliteData";
+			};
+			name = Release;
+		};
+		2B087E8C1E2C74EF004DBC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TJSqliteDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TJSqliteData;
+			};
+			name = Debug;
+		};
+		2B087E8D1E2C74EF004DBC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TJSqliteDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.TJSqliteDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TJSqliteData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B087E531E2C74EF004DBC0D /* Build configuration list for PBXProject "TJSqliteData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B087E831E2C74EF004DBC0D /* Debug */,
+				2B087E841E2C74EF004DBC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B087E851E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B087E861E2C74EF004DBC0D /* Debug */,
+				2B087E871E2C74EF004DBC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B087E881E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B087E891E2C74EF004DBC0D /* Debug */,
+				2B087E8A1E2C74EF004DBC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B087E8B1E2C74EF004DBC0D /* Build configuration list for PBXNativeTarget "TJSqliteDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B087E8C1E2C74EF004DBC0D /* Debug */,
+				2B087E8D1E2C74EF004DBC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B087E501E2C74EF004DBC0D /* Project object */;
+}
